@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A2DBAACA2EA4B5FE00F44CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DBAAB12EA4B5FD00F44CFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DBAAB82EA4B5FD00F44CFB;
+			remoteInfo = Tfence;
+		};
+		A2DBAAD42EA4B5FE00F44CFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DBAAB12EA4B5FD00F44CFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DBAAB82EA4B5FD00F44CFB;
+			remoteInfo = Tfence;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2DBAAB92EA4B5FD00F44CFB /* Tfence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tfence.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DBAAC92EA4B5FE00F44CFB /* TfenceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfenceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DBAAD32EA4B5FE00F44CFB /* TfenceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TfenceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2DBAABB2EA4B5FD00F44CFB /* Tfence */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tfence;
+			sourceTree = "<group>";
+		};
+		A2DBAACC2EA4B5FE00F44CFB /* TfenceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TfenceTests;
+			sourceTree = "<group>";
+		};
+		A2DBAAD62EA4B5FE00F44CFB /* TfenceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TfenceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DBAAB62EA4B5FD00F44CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DBAAC62EA4B5FE00F44CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DBAAD02EA4B5FE00F44CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DBAAB02EA4B5FD00F44CFB = {
+			isa = PBXGroup;
+			children = (
+				A2DBAABB2EA4B5FD00F44CFB /* Tfence */,
+				A2DBAACC2EA4B5FE00F44CFB /* TfenceTests */,
+				A2DBAAD62EA4B5FE00F44CFB /* TfenceUITests */,
+				A2DBAABA2EA4B5FD00F44CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DBAABA2EA4B5FD00F44CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DBAAB92EA4B5FD00F44CFB /* Tfence.app */,
+				A2DBAAC92EA4B5FE00F44CFB /* TfenceTests.xctest */,
+				A2DBAAD32EA4B5FE00F44CFB /* TfenceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DBAAB82EA4B5FD00F44CFB /* Tfence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DBAADD2EA4B5FE00F44CFB /* Build configuration list for PBXNativeTarget "Tfence" */;
+			buildPhases = (
+				A2DBAAB52EA4B5FD00F44CFB /* Sources */,
+				A2DBAAB62EA4B5FD00F44CFB /* Frameworks */,
+				A2DBAAB72EA4B5FD00F44CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A2DBAABB2EA4B5FD00F44CFB /* Tfence */,
+			);
+			name = Tfence;
+			packageProductDependencies = (
+			);
+			productName = Tfence;
+			productReference = A2DBAAB92EA4B5FD00F44CFB /* Tfence.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2DBAAC82EA4B5FE00F44CFB /* TfenceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DBAAE02EA4B5FE00F44CFB /* Build configuration list for PBXNativeTarget "TfenceTests" */;
+			buildPhases = (
+				A2DBAAC52EA4B5FE00F44CFB /* Sources */,
+				A2DBAAC62EA4B5FE00F44CFB /* Frameworks */,
+				A2DBAAC72EA4B5FE00F44CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DBAACB2EA4B5FE00F44CFB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2DBAACC2EA4B5FE00F44CFB /* TfenceTests */,
+			);
+			name = TfenceTests;
+			packageProductDependencies = (
+			);
+			productName = TfenceTests;
+			productReference = A2DBAAC92EA4B5FE00F44CFB /* TfenceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2DBAAD22EA4B5FE00F44CFB /* TfenceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DBAAE32EA4B5FE00F44CFB /* Build configuration list for PBXNativeTarget "TfenceUITests" */;
+			buildPhases = (
+				A2DBAACF2EA4B5FE00F44CFB /* Sources */,
+				A2DBAAD02EA4B5FE00F44CFB /* Frameworks */,
+				A2DBAAD12EA4B5FE00F44CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DBAAD52EA4B5FE00F44CFB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2DBAAD62EA4B5FE00F44CFB /* TfenceUITests */,
+			);
+			name = TfenceUITests;
+			packageProductDependencies = (
+			);
+			productName = TfenceUITests;
+			productReference = A2DBAAD32EA4B5FE00F44CFB /* TfenceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DBAAB12EA4B5FD00F44CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A2DBAAB82EA4B5FD00F44CFB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A2DBAAC82EA4B5FE00F44CFB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A2DBAAB82EA4B5FD00F44CFB;
+					};
+					A2DBAAD22EA4B5FE00F44CFB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A2DBAAB82EA4B5FD00F44CFB;
+					};
+				};
+			};
+			buildConfigurationList = A2DBAAB42EA4B5FD00F44CFB /* Build configuration list for PBXProject "Tfence" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DBAAB02EA4B5FD00F44CFB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A2DBAABA2EA4B5FD00F44CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DBAAB82EA4B5FD00F44CFB /* Tfence */,
+				A2DBAAC82EA4B5FE00F44CFB /* TfenceTests */,
+				A2DBAAD22EA4B5FE00F44CFB /* TfenceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DBAAB72EA4B5FD00F44CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DBAAC72EA4B5FE00F44CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DBAAD12EA4B5FE00F44CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DBAAB52EA4B5FD00F44CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DBAAC52EA4B5FE00F44CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DBAACF2EA4B5FE00F44CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DBAACB2EA4B5FE00F44CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DBAAB82EA4B5FD00F44CFB /* Tfence */;
+			targetProxy = A2DBAACA2EA4B5FE00F44CFB /* PBXContainerItemProxy */;
+		};
+		A2DBAAD52EA4B5FE00F44CFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DBAAB82EA4B5FD00F44CFB /* Tfence */;
+			targetProxy = A2DBAAD42EA4B5FE00F44CFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2DBAADB2EA4B5FE00F44CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2DBAADC2EA4B5FE00F44CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DBAADE2EA4B5FE00F44CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tfence/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Q738PTDH9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leon.Tfence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2DBAADF2EA4B5FE00F44CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Tfence/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Q738PTDH9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leon.Tfence;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2DBAAE12EA4B5FE00F44CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q738PTDH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leon.TfenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tfence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tfence";
+			};
+			name = Debug;
+		};
+		A2DBAAE22EA4B5FE00F44CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q738PTDH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leon.TfenceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tfence.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tfence";
+			};
+			name = Release;
+		};
+		A2DBAAE42EA4B5FE00F44CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q738PTDH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leon.TfenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tfence;
+			};
+			name = Debug;
+		};
+		A2DBAAE52EA4B5FE00F44CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4Q738PTDH9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = leon.TfenceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tfence;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DBAAB42EA4B5FD00F44CFB /* Build configuration list for PBXProject "Tfence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DBAADB2EA4B5FE00F44CFB /* Debug */,
+				A2DBAADC2EA4B5FE00F44CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DBAADD2EA4B5FE00F44CFB /* Build configuration list for PBXNativeTarget "Tfence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DBAADE2EA4B5FE00F44CFB /* Debug */,
+				A2DBAADF2EA4B5FE00F44CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DBAAE02EA4B5FE00F44CFB /* Build configuration list for PBXNativeTarget "TfenceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DBAAE12EA4B5FE00F44CFB /* Debug */,
+				A2DBAAE22EA4B5FE00F44CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DBAAE32EA4B5FE00F44CFB /* Build configuration list for PBXNativeTarget "TfenceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DBAAE42EA4B5FE00F44CFB /* Debug */,
+				A2DBAAE52EA4B5FE00F44CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DBAAB12EA4B5FD00F44CFB /* Project object */;
+}
